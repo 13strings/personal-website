@@ -1,2 +1,2 @@
 # Website Design
-Making a personal website for my professional resume/projects! Mostly for fun :-)
+Making a personal website for my resume/projects! Mostly for fun :-)
