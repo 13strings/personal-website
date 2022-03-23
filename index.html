@@ -3,13 +3,13 @@
 <head>
     <title>Katie Kubiatko</title>
 
-    <link rel="shortcut icon" src="image1.jpg">
+    <link rel="shortcut icon" href="CEC81506-30B5-4BCD-AE86-DF46821616BF.jpg" type="image/x-icon" />
     <script src="https://unpkg.com/phosphor-icons"></script>
     <meta charset="utf-8">
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Days One' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-    <style>
+    <style type="text/css">
         :root {
             --background-color: #F5F5F5;
             --content-background: #FFF;
@@ -18,7 +18,7 @@
             --title:#BD9879;
 
             --body-font: "Montserrat";
-            --font-size: 50px;
+            --font-size: 5vw;
         }
 
         body {
@@ -32,30 +32,41 @@
             color: var(--text-color);
 
         }
+        
+        ::-webkit-scrollbar {
+            width: 8px; 
+            height: 20px;
+            background-color: var(--background-color);
+        }
+ 
+        ::-webkit-scrollbar-thumb {
+            background-color: var(--link-hover);
+            min-height: 35px;
+            min-width: 35px;
+            border-radius: 10px;
+        }
+
 
         .title {
             text-align:left;
             position: absolute;
-            margin-top: 1.5%;
+            margin-top: 3vw;
             letter-spacing:1px;
-            margin-left: 29.8%;
-            color:var(--title)
+            margin-left: 30vw;
+            color:var(--title);
             
         }
 
         .picture {
             position:absolute;
-            margin-top: -20px;
-            margin-left: 200px;
+            margin-top: 0vw;
+            margin-left: 13vw;
             }
 
-        .img {
-            border-radius: 50%;
-        }
 
         .picture img {
-            height:200px;
-            width:200px;
+            height:15vw;
+            width:15vw;
             border-radius:25%;
         }
 
@@ -68,26 +79,37 @@
         }
         .aboutme {
             position: absolute;
-            margin-top: 0%;
+            margin-top: 0vw;
             text-align: left;
             letter-spacing: normal;
             color: var(--text-color);
-            font-size: 18px;
-            margin-left:30%;
+            font-size: 2vw;
+            margin-left:30vw;
         }
+
+        .aboutme2 {
+            position: absolute;
+            margin-top: 10vw;
+            text-align: left;
+            letter-spacing: normal;
+            color: var(--text-color);
+            font-size: 2vw;
+            margin-left:30vw;
+        }
+
 
         .links {
             position:absolute;
             display: inline-block;
-            margin-top:10%;
-            margin-left:10%;
+            margin-top:12vw;
+            margin-left:20vw;
         }
 
         .links a {
             display:inline;
             padding-right:10px;
             letter-spacing:0.5px;
-            font-size:13px;
+            font-size:1.5vw;
             font-weight:500;
         }
 
@@ -95,15 +117,16 @@
             display:inline-block;           
         }
         
-
     </style>
 </head>
 
-<body>
-<div class = "aboutme">Hi. My name is<br> </div>
-<div class = "picture"> <img src="https://www.w3schools.com/howto/img_avatar2.png"></div>
-<div class = "title"><b>Katie Kubiatko.</b></div>
-<div class = "aboutme"><br> <br><br> <br>I'm a 2nd year mechanical engineering major at UCLA! <br>Welcome to my website.</div>
+
+
+<body style = "background-color: var(--background-color);">
+<div class = "aboutme">Hi! My name is</div>
+<div class = "picture"> <img src="IMG_3892.jpg"></div>
+<div class = "title"><b>Katie Kubiatko!</b></div>
+<div class = "aboutme2">I'm a 2nd year mechanical engineering major at UCLA! <br>Welcome to my website!</div>
 
 
 <div class = "links">
