@@ -1,0 +1,96 @@
+
+        :root {
+            --background-color: #F5F5F5;
+            --content-background: #FFF;
+            --text-color: #808080;
+            --link-hover: #BD9879;
+            --title:#BD9879;
+
+            --body-font: "Montserrat";
+            --font-size: 5vw;
+        }
+
+        body {
+            font-family: var(--body-font);
+            font-size: var(--font-size);
+            color: var(--text);
+            background-color: (--background-color);
+            text-align: center;
+            letter-spacing: 0.04em;
+            margin-top: 100px;
+            color: var(--text-color);
+            overflow: scroll;
+
+        }
+        
+        .title {
+            text-align:left;
+            position: absolute;
+            margin-top: 3vw;
+            letter-spacing:1px;
+            margin-left: 30vw;
+            color:var(--title);
+            
+        }
+
+        .picture {
+            position:absolute;
+            margin-top: 0vw;
+            margin-left: 13vw;
+            }
+
+
+        .picture img {
+            height:15vw;
+            width:15vw;
+            border-radius:25%;
+        }
+
+        a {
+            color: var(--text-color);
+        } 
+
+        a:hover {
+            color: var(--link-hover);
+        }
+        .aboutme {
+            position: absolute;
+            margin-top: 0vw;
+            text-align: left;
+            letter-spacing: normal;
+            color: var(--text-color);
+            font-size: 2vw;
+            margin-left:30vw;
+        }
+
+        .aboutme2 {
+            position: absolute;
+            margin-top: 10vw;
+            text-align: left;
+            letter-spacing: normal;
+            color: var(--text-color);
+            font-size: 2vw;
+            margin-left:30vw;
+        }
+
+
+        .links {
+            position:absolute;
+            display: inline-block;
+            margin-top:12vw;
+            margin-left:20vw;
+        }
+
+        .links a {
+            display:inline;
+            padding-right:10px;
+            letter-spacing:0.5px;
+            font-size:1.5vw;
+            font-weight:500;
+        }
+
+        .links #nav li {
+            display:inline-block;           
+        }
+        
+        
