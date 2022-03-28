@@ -93,4 +93,23 @@
             display:inline-block;           
         }
         
-        
+        .header {
+            text-align:center;
+            position: absolute;
+            letter-spacing:1px;
+            color:var(--title);
+            margin-left: 40vw;
+            margin-top: 25vw;
+            
+        }
+
+        .button {
+            background-color: ##FFF;
+            border: none;
+            color: black;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+        }
