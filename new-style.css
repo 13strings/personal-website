@@ -27,7 +27,7 @@
             font-family: var(--body-font);
             font-size: var(--font-size);
             color: var(--text);
-            background-color: (--background-color);
+            
             letter-spacing: 0.04em;
             color: var(--text-color);
             overflow: scroll;
@@ -43,8 +43,16 @@
             
         }
 
+        .section-header {
+            text-align:center;
+            letter-spacing:1px;
+            margin-top: 5vw;
+            color:var(--text-color);
+            font-weight: lighter;
+        }
+
         .picture {
-            padding-top: 10vw;
+            padding-top: 16vw;
             margin-left: 13vw;
             float: left;
             }
@@ -67,7 +75,7 @@
         .aboutme {
 
             text-align: left;
-            padding-top: 10vw;
+            padding-top: 16vw;
             color: var(--text-color);
             font-size: 2vw;
             margin-left:30vw;
@@ -104,13 +112,14 @@
             text-align:center;
             letter-spacing:1px;
             color: var(--text-color);
-            font-size: 2vw;
+            font-size: 1.5vw;
             text-align: center;
-            margin-top: 5vw;
-            font-weight: bold;
+            font-weight: lighter;
+            
+            
         }
         body::-webkit-scrollbar {
-            width: 10px;
+            width: 15px;
         }
         
         body::-webkit-scrollbar-track {
@@ -125,4 +134,50 @@
 
         body::-webkit-scrollbar-thumb:hover {
             background-color: var(--darker-pink);
+        }
+
+        .collapsing-section {
+            background-color: var(--dark-pink);
+            color: #fff;
+            cursor: pointer;
+            font-size:2vw;
+            padding: 1vw;
+            width: 50%;
+            text-align: left;
+            font-weight: bold;
+            border: none;
+            outline:none;
+            transition:0.4s;
+            font-family: var(--body-font);
+            margin-left:25%;
+        }
+
+        .active {
+            background-color: var(--darker-pink);
+
+        }
+
+        .collapsing-section:hover {
+            background-color: var(--darker-pink);
+        }
+
+        .panel {
+            padding: 0 18px;
+            background-color: #fff;
+            display: none;
+            overflow: hidden;
+            width: 50%;
+            margin-left:25%;
+            outline:none;
+            letter-spacing:0.5px;
+            font-size:1.5vw;
+            font-weight:500;
+        }
+        
+        .pattern {
+            min-height: 200px;
+        }
+
+        #stripes {
+            background-image: repeating-linear-gradient(70deg, #ccc, 2px, #dbdbdb, 2px, #dbdbdb 4px;)
         }
