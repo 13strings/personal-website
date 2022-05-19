@@ -218,3 +218,22 @@
             flex-direction: column;
             margin-bottom: 4%;
         }
+
+        .social-media-bar {
+            position: sticky;
+            top: 100px;
+            left: 10vw;
+            
+        }
+
+        .social-media-image-box {
+            display:flex;
+            justify-content: flex-start;
+            flex-direction: row;
+        }
+
+        .square-sm-icons {
+            height:7vw;
+            width: auto;
+            object-fit: contain;
+        }
