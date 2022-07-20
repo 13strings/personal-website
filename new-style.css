@@ -95,7 +95,7 @@
 
         .links {
             display: inline-block;
-            margin-left:55vw;
+            margin-left:3vw;
             margin-bottom: 5%;
         }
 
@@ -237,3 +237,39 @@
             width: auto;
             object-fit: contain;
         }
+
+        .page-title
+        {
+            text-align:center;
+            letter-spacing:1px;
+            color:var(--title);  
+        }
+
+        .page-links
+        {
+            display: inline-block;
+            margin-left: 7vw;
+            margin-bottom: 5%; 
+        }
+
+        .page-links a {
+            display:inline;
+            padding-right:10px;
+            letter-spacing:0.5px;
+            font-size:1.5vw;
+            font-weight:500;
+        }
+
+        .page-links #nav li {
+            display:inline-block;           
+        }
+
+        .page-notes{
+            text-align:center;
+            letter-spacing:1px;
+            font-size: 1.5vw;
+            color:var(--text-color);
+            font-weight: lighter;
+        }
+
+        
